@@ -1,4 +1,4 @@
-var testModule = (function ( ) {
+var testModule = (function () {
 
 	var counter = 0;
 
@@ -14,3 +14,10 @@ var testModule = (function ( ) {
 		}
 	}
 })();
+
+
+//Uso
+
+testModule.incrementCounter();
+
+testModule.resetCounter();
